@@ -1,0 +1,88 @@
+{
+  "name": "TestPrivateRepo",
+  "version": "0.1.0",
+  "summary": "A short description of TestPrivateRepo.",
+  "description": "尝试封装第三方库于私有库当中进行使用。",
+  "homepage": "https://github.com/553880309/TestPrivateRepo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "553880309": "wuchunyan@58ganji.com"
+  },
+  "source": {
+    "git": "https://github.com/553880309/TestPrivateRepo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "RongIMLib",
+      "ios": {
+        "vendored_frameworks": "TestPrivateRepo/Classes/RongCloud/RongIMLib.framework",
+        "vendored_libraries": "TestPrivateRepo/Classes/RongCloud/libopencore-amrnb.a"
+      },
+      "libraries": [
+        "c++",
+        "c++abi",
+        "sqlite3",
+        "stdc++.6.0.9",
+        "xml2",
+        "z"
+      ],
+      "frameworks": [
+        "CFNetwork",
+        "SystemConfiguration"
+      ]
+    },
+    {
+      "name": "WBPush",
+      "source_files": "TestPrivateRepo/Classes/WBPush/Headers/*.h",
+      "ios": {
+        "vendored_libraries": "TestPrivateRepo/Classes/WBPush/libWUBAPush.a"
+      },
+      "frameworks": [
+        "PushKit",
+        "CoreLocation"
+      ]
+    },
+    {
+      "name": "WChat",
+      "source_files": "TestPrivateRepo/Classes/WChat/WChatLib/*.h",
+      "ios": {
+        "vendored_libraries": [
+          "TestPrivateRepo/Classes/WChat/WChatLib.a",
+          "TestPrivateRepo/Classes/WChat/libWMDA_Lite.a",
+          "TestPrivateRepo/Classes/WChat/libcrypto.a",
+          "TestPrivateRepo/Classes/WChat/libssl.a"
+        ]
+      },
+      "libraries": [
+        "c++",
+        "sqlite3",
+        "resolv.9",
+        "z"
+      ],
+      "frameworks": [
+        "SystemConfiguration",
+        "CoreTelephony",
+        "CoreFoundation",
+        "QuartzCore",
+        "AVFoundation",
+        "AssetsLibrary",
+        "Photos",
+        "MobileCoreServices",
+        "MediaPlayer",
+        "CoreLocation",
+        "MapKit",
+        "CoreAudio",
+        "AudioToolbox",
+        "ImageIO",
+        "CoreText"
+      ]
+    }
+  ]
+}

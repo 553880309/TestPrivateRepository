@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D1978065C022C9F3D00FD7136CB8E990 /* TestPrivateRepo */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 15C88D70CB16638D667C90CF30D692ED /* Build configuration list for PBXAggregateTarget "TestPrivateRepo" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TestPrivateRepo;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0CEF41D83EDC422FF3352280CAE2C94C /* Pods-TestPrivateRepo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E95C3B0D679502ADAE9C9072061CBFFC /* Pods-TestPrivateRepo_Tests-dummy.m */; };
+		2BF74F26D0C7B7FC1F35453A5C67545E /* Pods-TestPrivateRepo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 985E0A3F087C58DDFC92249D1754ABE1 /* Pods-TestPrivateRepo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D22EBC1A56EC538FBEDC9408A7D7CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		ABE67F9C76D2CBE9EB9391AC0F0DAD48 /* Pods-TestPrivateRepo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F637947EA64A9308377F4999A4CB573F /* Pods-TestPrivateRepo_Example-dummy.m */; };
+		FECAA5DFDBB0FD0B1D883925EA50A6FE /* Pods-TestPrivateRepo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB293ACAB1494077FB67571D0F77705A /* Pods-TestPrivateRepo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF5E7C3676BDB370078FA433E4547F08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98049F2D8231369E55D47CDF0C3292D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644ED869BA4E67502FABCAADBCBBADC8;
+			remoteInfo = "Pods-TestPrivateRepo_Example";
+		};
+		D4FADC5C73A60CFB5BEBA7D9C18ACA1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1978065C022C9F3D00FD7136CB8E990;
+			remoteInfo = TestPrivateRepo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00121CFB03BDF0DB178CCB2DAE77CC4F /* WIMModifyMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMModifyMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMModifyMessage.h; sourceTree = "<group>"; };
+		0051F4ED0E28357B15A61AB645593137 /* WIMPublicServiceRichContentMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMPublicServiceRichContentMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMPublicServiceRichContentMessage.h; sourceTree = "<group>"; };
+		04FD95BBC783740B6F26A3C68412FFDB /* Pods-TestPrivateRepo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPrivateRepo_Tests-Info.plist"; sourceTree = "<group>"; };
+		05355D8C6EB74B7CC43F335D1F64E536 /* WIMOriginalMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMOriginalMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMOriginalMessage.h; sourceTree = "<group>"; };
+		067912AE34422C6EFBF77C864E8F43E4 /* WIMLibBuildVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMLibBuildVersion.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMLibBuildVersion.h; sourceTree = "<group>"; };
+		0744A232011326727249318ABD430538 /* Pods-TestPrivateRepo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPrivateRepo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0868086150A9B98030E0C68858F8A86A /* WIMUniversalCard1Msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMUniversalCard1Msg.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMUniversalCard1Msg.h; sourceTree = "<group>"; };
+		08C1D977D440C6A5E4A5E862DAD97764 /* WIMBasicInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMBasicInfo.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMBasicInfo.h; sourceTree = "<group>"; };
+		0B64950FBB0C146F23838FEE2644481C /* WChatLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = WChatLib.a; path = TestPrivateRepo/Classes/WChat/WChatLib.a; sourceTree = "<group>"; };
+		0C2CD4F08E777609CC085F58F14F023B /* WIMMessageProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMMessageProtocol.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMMessageProtocol.h; sourceTree = "<group>"; };
+		0FB1A5E4690171C127F945F80471F13E /* WIMBusinessProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMBusinessProtocol.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMBusinessProtocol.h; sourceTree = "<group>"; };
+		102C21325BB1D066E84A4FD379B94338 /* WIMRemarkModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMRemarkModel.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMRemarkModel.h; sourceTree = "<group>"; };
+		11F8FDB41DF6BBB56341B24CD9FA3DF6 /* WIMLibDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMLibDefine.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMLibDefine.h; sourceTree = "<group>"; };
+		18DD6FB7FC6741DF0545E0AD01ACC62B /* WIMUniversalCard4Msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMUniversalCard4Msg.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMUniversalCard4Msg.h; sourceTree = "<group>"; };
+		1912C4C2C2C6F552497DAA400E5212F9 /* Pods-TestPrivateRepo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPrivateRepo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A0C1452CC68DB9ADAB0B4398A4E5507 /* WIMReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMReachability.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMReachability.h; sourceTree = "<group>"; };
+		1D6BDE68F19CDE4A5812FAB3DD146EB6 /* WIMMessageParamSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMMessageParamSet.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMMessageParamSet.h; sourceTree = "<group>"; };
+		1E89D56B87711E0C54E5808C578D4C5B /* WIMTimeCalculate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMTimeCalculate.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMTimeCalculate.h; sourceTree = "<group>"; };
+		2178366428EF1E131C7158C70E8ACFB5 /* WUBAPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WUBAPush.h; path = TestPrivateRepo/Classes/WBPush/Headers/WUBAPush.h; sourceTree = "<group>"; };
+		22164407453C20D080B5B9944673C882 /* WIMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMError.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMError.h; sourceTree = "<group>"; };
+		25A2A12C41AB9D755F244C6A909AFDAD /* WIMRTCCommandProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMRTCCommandProtocol.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMRTCCommandProtocol.h; sourceTree = "<group>"; };
+		2848EC7A870F08CE8056F7B8AC0403CD /* WIMBusinessManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMBusinessManager.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMBusinessManager.h; sourceTree = "<group>"; };
+		28CFC4C6671555595CED6097808D8CB5 /* WIMTalkChangedNotify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMTalkChangedNotify.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMTalkChangedNotify.h; sourceTree = "<group>"; };
+		2D97BEC607871229E410FEC1B8C08DC7 /* WIMTalkParamSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMTalkParamSet.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMTalkParamSet.h; sourceTree = "<group>"; };
+		2F66F9285B1928DD98156DEFA9FFDD85 /* WIMGroupProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMGroupProtocol.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMGroupProtocol.h; sourceTree = "<group>"; };
+		31383D7B0455AE8F29E73DE6F51BD1F0 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMLib.framework; path = TestPrivateRepo/Classes/RongCloud/RongIMLib.framework; sourceTree = "<group>"; };
+		3569149D19021FCBDB568D6E1C016204 /* Pods-TestPrivateRepo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestPrivateRepo_Example.modulemap"; sourceTree = "<group>"; };
+		3BBFBD6FE98AE7890DFD19FAD46300B5 /* Pods-TestPrivateRepo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPrivateRepo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CD05E3D9AC5831C188222C60E636336 /* WIMGroupInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMGroupInfo.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMGroupInfo.h; sourceTree = "<group>"; };
+		4236A252FE02B8D85D61A90F1DC56EBB /* WIMFriendRequestMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMFriendRequestMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMFriendRequestMessage.h; sourceTree = "<group>"; };
+		43C812FCFF5677FA35691B25C82505E6 /* WIMOutGroupCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMOutGroupCommand.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMOutGroupCommand.h; sourceTree = "<group>"; };
+		4448FE5E39E8D80C3E38645C4382EB17 /* WIMSearchTalk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMSearchTalk.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMSearchTalk.h; sourceTree = "<group>"; };
+		469C4A27DBE959CB277F33209E56E19C /* WIMUniversalCard3Msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMUniversalCard3Msg.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMUniversalCard3Msg.h; sourceTree = "<group>"; };
+		47123460ED909502642E85E0AC7FCE7A /* WIMUniversalCard5Msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMUniversalCard5Msg.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMUniversalCard5Msg.h; sourceTree = "<group>"; };
+		4876776932DAE04D11DA517A4E06E992 /* WIMPublicServiceRichContentsMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMPublicServiceRichContentsMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMPublicServiceRichContentsMessage.h; sourceTree = "<group>"; };
+		4A870ADBDE5ABFDE2F43BA49AB1D8BCC /* WUBAPushMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WUBAPushMessage.h; path = TestPrivateRepo/Classes/WBPush/Headers/WUBAPushMessage.h; sourceTree = "<group>"; };
+		4C7DD54DCAAB824905D616FB899E9E21 /* WIMTalk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMTalk.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMTalk.h; sourceTree = "<group>"; };
+		50BA171CEC4E08D4A518B8D3AF572AED /* WIMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMMessage.h; sourceTree = "<group>"; };
+		520F1519F9502A9B37965B9D729E746B /* WIMSearchGroupMember.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMSearchGroupMember.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMSearchGroupMember.h; sourceTree = "<group>"; };
+		5419305909B910512E30B8C0CCEDEA2C /* Pods-TestPrivateRepo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPrivateRepo_Example-Info.plist"; sourceTree = "<group>"; };
+		55793138E796390457BEB2C147260CD0 /* WIMInformationNotificationMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMInformationNotificationMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMInformationNotificationMessage.h; sourceTree = "<group>"; };
+		588B87C9C1D65D218F407AE262AC2DA9 /* WIMGlobalSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMGlobalSearchResult.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMGlobalSearchResult.h; sourceTree = "<group>"; };
+		5E87E46703A588768F407B16CEE33C32 /* WIMTalkProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMTalkProtocol.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMTalkProtocol.h; sourceTree = "<group>"; };
+		5FC7E52859A267CD3542A3D18838A4E2 /* Pods_TestPrivateRepo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestPrivateRepo_Tests.framework; path = "Pods-TestPrivateRepo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6065E0375D1A69D822E06DDF81D865A5 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = TestPrivateRepo/Classes/WChat/libssl.a; sourceTree = "<group>"; };
+		664E3A4888BE1D1FEF2E8041619F5D18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		674FEF2588C3AC59468A62D525C4425E /* WIMPublicServiceRichContentItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMPublicServiceRichContentItem.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMPublicServiceRichContentItem.h; sourceTree = "<group>"; };
+		6A2A532682FAFDD926CC8F6C9718B94C /* WIMAudioMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMAudioMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMAudioMessage.h; sourceTree = "<group>"; };
+		735D7BDC86AFB7D47DFA0228384BB5F0 /* WIMGroupNotificationFormatInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMGroupNotificationFormatInfo.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMGroupNotificationFormatInfo.h; sourceTree = "<group>"; };
+		777A56154F13833B567C5A5A3786A4F6 /* WIMUniversalCard6Msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMUniversalCard6Msg.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMUniversalCard6Msg.h; sourceTree = "<group>"; };
+		7837822004DC009564E004B0F1947448 /* Pods-TestPrivateRepo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPrivateRepo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7A2FB0CA1085F0EFF7C9330DA07509F9 /* libWUBAPush.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWUBAPush.a; path = TestPrivateRepo/Classes/WBPush/libWUBAPush.a; sourceTree = "<group>"; };
+		7E67B2FC7C4D389A5078B77B156A0EB8 /* WIMBlankMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMBlankMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMBlankMessage.h; sourceTree = "<group>"; };
+		7E7DC236BED16A0F500A2071C77141D6 /* Pods-TestPrivateRepo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestPrivateRepo_Tests.modulemap"; sourceTree = "<group>"; };
+		82D0F8EA16320D1C92B5AA451110ACD3 /* WIMMessageContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMMessageContent.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMMessageContent.h; sourceTree = "<group>"; };
+		85C6CEE2663B7EB18A13C998857A342F /* WIMImageMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMImageMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMImageMessage.h; sourceTree = "<group>"; };
+		86753DD71E39864F75AF21503BD10867 /* WIMUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMUserInfo.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMUserInfo.h; sourceTree = "<group>"; };
+		86B76BF4876C35ADAB5D7544B8ACEFB7 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = TestPrivateRepo/Classes/WChat/libcrypto.a; sourceTree = "<group>"; };
+		88E1BBB336C990A82B8AA8F290C5C129 /* WIMContactProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMContactProtocol.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMContactProtocol.h; sourceTree = "<group>"; };
+		8C4DA893F9FD9868B836641EC042122D /* WIMNetCallMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMNetCallMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMNetCallMessage.h; sourceTree = "<group>"; };
+		8DA0A82DAE0C1B9FB2F649F1B3AD2967 /* WIMConnectionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMConnectionProtocol.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMConnectionProtocol.h; sourceTree = "<group>"; };
+		8F744E506EBF77754577D5D81315DE3F /* WIMJSONConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMJSONConverter.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMJSONConverter.h; sourceTree = "<group>"; };
+		9113C6087CD07DAFF64B8A1123DE4800 /* WIMUniversalCard2Msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMUniversalCard2Msg.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMUniversalCard2Msg.h; sourceTree = "<group>"; };
+		92BAA5AC58E4BB024D0A792BEFBF8D2F /* Pods_TestPrivateRepo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestPrivateRepo_Example.framework; path = "Pods-TestPrivateRepo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		974ADEE3F79BE28E1B40A235F3BFDC44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		985E0A3F087C58DDFC92249D1754ABE1 /* Pods-TestPrivateRepo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPrivateRepo_Example-umbrella.h"; sourceTree = "<group>"; };
+		99A9D94225B64D56BC2D76CD1655B2F7 /* WIMRichContentMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMRichContentMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMRichContentMessage.h; sourceTree = "<group>"; };
+		A05EEF7F3DF4A9A4F5F624F32B41746D /* WIMUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMUtility.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMUtility.h; sourceTree = "<group>"; };
+		AAD7CEA59669E97687C5AA5F8AECF209 /* Pods-TestPrivateRepo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPrivateRepo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B09BCE180C2BE6C1FE97D7BE1ED1AD05 /* WIMMediaConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMMediaConstants.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMMediaConstants.h; sourceTree = "<group>"; };
+		B21C8DFA346C0A81064134E6FE95E1A8 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "TestPrivateRepo/Classes/RongCloud/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		B23EC7C7A77FEC2D114BBB53227AE481 /* WIMMediaProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMMediaProtocol.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMMediaProtocol.h; sourceTree = "<group>"; };
+		B2928D044103360DF58D96D8A732036D /* Pods-TestPrivateRepo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPrivateRepo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B310BDA528BFE57E1698D5B2F2DB5B34 /* WIMEvaluationRemarkInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMEvaluationRemarkInfo.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMEvaluationRemarkInfo.h; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5B9BF9078642598FC31684592A1D075 /* WIMNetWorkReachabilityHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMNetWorkReachabilityHeader.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMNetWorkReachabilityHeader.h; sourceTree = "<group>"; };
+		B62EE056604502B6103FCAA4F93D5E5C /* WIMQuoteContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMQuoteContent.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMQuoteContent.h; sourceTree = "<group>"; };
+		B9E32C54C61DE73C270835102B58EE6D /* libWMDA_Lite.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWMDA_Lite.a; path = TestPrivateRepo/Classes/WChat/libWMDA_Lite.a; sourceTree = "<group>"; };
+		BA642C0F31DBC1BF79CE9CBB93B37D1C /* Pods-TestPrivateRepo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestPrivateRepo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BB293ACAB1494077FB67571D0F77705A /* Pods-TestPrivateRepo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestPrivateRepo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BB8656736C56E7112BB2CF2EC9D83FB3 /* WIMAttatchmentParamSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMAttatchmentParamSet.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMAttatchmentParamSet.h; sourceTree = "<group>"; };
+		BCC33535AFA15E758E2E2CDFE0FD22D2 /* WIMTipMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMTipMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMTipMessage.h; sourceTree = "<group>"; };
+		C366A4D5FB7BF61BD76D7AD8FE7C2EAD /* WIMFileMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMFileMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMFileMessage.h; sourceTree = "<group>"; };
+		C633909BD71F11EAF7EA4722BD220FEF /* WIMEvaluationCard2Msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMEvaluationCard2Msg.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMEvaluationCard2Msg.h; sourceTree = "<group>"; };
+		C910007D75E84DF60BC7A1D35BFE63AC /* WIMEvaluationCard2Result.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMEvaluationCard2Result.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMEvaluationCard2Result.h; sourceTree = "<group>"; };
+		CA5F12319E0861DB7DDEF4868DC6D49C /* WIMRunningModeCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMRunningModeCommand.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMRunningModeCommand.h; sourceTree = "<group>"; };
+		CADB524B3E514DF827185C53EA015194 /* WIMTextMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMTextMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMTextMessage.h; sourceTree = "<group>"; };
+		CB0EADF58C20B3D761E1AA8EC7D4D394 /* WIMMediaManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMMediaManager.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMMediaManager.h; sourceTree = "<group>"; };
+		CD62A09E57457FF8427165B3B79FB811 /* WPushLocalNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPushLocalNotification.h; path = TestPrivateRepo/Classes/WBPush/Headers/WPushLocalNotification.h; sourceTree = "<group>"; };
+		CDC7120528B829AEE6E8246D6E3605DD /* WIMEvaluationCard1Result.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMEvaluationCard1Result.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMEvaluationCard1Result.h; sourceTree = "<group>"; };
+		CE8410B6A45C4639D6751E7911FACC04 /* WIMLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMLib.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMLib.h; sourceTree = "<group>"; };
+		CEB9676F7BAC94E567D7BCDAD0EB7725 /* WIMClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMClient.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMClient.h; sourceTree = "<group>"; };
+		D47662ADE254D723F0B3EDD52DE4226B /* WIMSDKOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMSDKOption.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMSDKOption.h; sourceTree = "<group>"; };
+		D5DBD599DA4ABBE70198D0A164376F45 /* WIMPublicServiceMenuItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMPublicServiceMenuItem.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMPublicServiceMenuItem.h; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D89951AF34CF354FF18D911855AF186D /* WIMVideoMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMVideoMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMVideoMessage.h; sourceTree = "<group>"; };
+		D8A956373389DE59440F0412377A1C94 /* WIMMDALogHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMMDALogHelper.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMMDALogHelper.h; sourceTree = "<group>"; };
+		DD062667F22BE628E9D650A1BB506C99 /* TestPrivateRepo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestPrivateRepo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2118EF26744228E42AE1298D483EE52 /* WIMUserParamSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMUserParamSet.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMUserParamSet.h; sourceTree = "<group>"; };
+		E4E4B02FF1B639C198E25D76602A9187 /* WIMPublicServiceMenuGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMPublicServiceMenuGroup.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMPublicServiceMenuGroup.h; sourceTree = "<group>"; };
+		E95C3B0D679502ADAE9C9072061CBFFC /* Pods-TestPrivateRepo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestPrivateRepo_Tests-dummy.m"; sourceTree = "<group>"; };
+		EBA7079F34C5B2892E1249C0F658C1CB /* WIMGroupNotificationMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMGroupNotificationMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMGroupNotificationMessage.h; sourceTree = "<group>"; };
+		EC6601466DA10A96DA981B7FAA24E32F /* WIMLocationMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMLocationMessage.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMLocationMessage.h; sourceTree = "<group>"; };
+		ED65DD0811530A118825170521FB4256 /* Pods-TestPrivateRepo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestPrivateRepo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1405448D6DC73EC758F906D5DE1CE79 /* WIMAtTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMAtTarget.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMAtTarget.h; sourceTree = "<group>"; };
+		F2D6AC3EA72FB4C74FDFC0793D7AC6E7 /* WIMEvaluationCard1Msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMEvaluationCard1Msg.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMEvaluationCard1Msg.h; sourceTree = "<group>"; };
+		F637947EA64A9308377F4999A4CB573F /* Pods-TestPrivateRepo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestPrivateRepo_Example-dummy.m"; sourceTree = "<group>"; };
+		FA5060834DFB9B85CED4C355B1041BD2 /* WIM+NSString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WIM+NSString.h"; path = "TestPrivateRepo/Classes/WChat/WChatLib/WIM+NSString.h"; sourceTree = "<group>"; };
+		FA9F7E1D286D93DC148D2187DCD21EEC /* WIMConfigParamSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMConfigParamSet.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMConfigParamSet.h; sourceTree = "<group>"; };
+		FD4F7133359A669FC2137C5A41DD1F9E /* WIMUserCenterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMUserCenterProtocol.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMUserCenterProtocol.h; sourceTree = "<group>"; };
+		FDC185BE268CD3DE56563DD383E60AA5 /* WIMContactInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMContactInfo.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMContactInfo.h; sourceTree = "<group>"; };
+		FE1EC5B54B8C5FBCD32C51FEED2F4EFD /* TestPrivateRepo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestPrivateRepo.xcconfig; sourceTree = "<group>"; };
+		FF67D19BAC1E365A8E344FF84164B24C /* WIMPublicServiceMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WIMPublicServiceMenu.h; path = TestPrivateRepo/Classes/WChat/WChatLib/WIMPublicServiceMenu.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C5E2E8510E5E1A0005488469E730F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5E7C3676BDB370078FA433E4547F08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44BF824F05A3D33F434493F0822A0AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D22EBC1A56EC538FBEDC9408A7D7CB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0102815E2214C6F574FD4E69F108A7BE /* WChat */ = {
+			isa = PBXGroup;
+			children = (
+				FA5060834DFB9B85CED4C355B1041BD2 /* WIM+NSString.h */,
+				F1405448D6DC73EC758F906D5DE1CE79 /* WIMAtTarget.h */,
+				BB8656736C56E7112BB2CF2EC9D83FB3 /* WIMAttatchmentParamSet.h */,
+				6A2A532682FAFDD926CC8F6C9718B94C /* WIMAudioMessage.h */,
+				08C1D977D440C6A5E4A5E862DAD97764 /* WIMBasicInfo.h */,
+				7E67B2FC7C4D389A5078B77B156A0EB8 /* WIMBlankMessage.h */,
+				2848EC7A870F08CE8056F7B8AC0403CD /* WIMBusinessManager.h */,
+				0FB1A5E4690171C127F945F80471F13E /* WIMBusinessProtocol.h */,
+				CEB9676F7BAC94E567D7BCDAD0EB7725 /* WIMClient.h */,
+				FA9F7E1D286D93DC148D2187DCD21EEC /* WIMConfigParamSet.h */,
+				8DA0A82DAE0C1B9FB2F649F1B3AD2967 /* WIMConnectionProtocol.h */,
+				FDC185BE268CD3DE56563DD383E60AA5 /* WIMContactInfo.h */,
+				88E1BBB336C990A82B8AA8F290C5C129 /* WIMContactProtocol.h */,
+				22164407453C20D080B5B9944673C882 /* WIMError.h */,
+				F2D6AC3EA72FB4C74FDFC0793D7AC6E7 /* WIMEvaluationCard1Msg.h */,
+				CDC7120528B829AEE6E8246D6E3605DD /* WIMEvaluationCard1Result.h */,
+				C633909BD71F11EAF7EA4722BD220FEF /* WIMEvaluationCard2Msg.h */,
+				C910007D75E84DF60BC7A1D35BFE63AC /* WIMEvaluationCard2Result.h */,
+				B310BDA528BFE57E1698D5B2F2DB5B34 /* WIMEvaluationRemarkInfo.h */,
+				C366A4D5FB7BF61BD76D7AD8FE7C2EAD /* WIMFileMessage.h */,
+				4236A252FE02B8D85D61A90F1DC56EBB /* WIMFriendRequestMessage.h */,
+				588B87C9C1D65D218F407AE262AC2DA9 /* WIMGlobalSearchResult.h */,
+				3CD05E3D9AC5831C188222C60E636336 /* WIMGroupInfo.h */,
+				735D7BDC86AFB7D47DFA0228384BB5F0 /* WIMGroupNotificationFormatInfo.h */,
+				EBA7079F34C5B2892E1249C0F658C1CB /* WIMGroupNotificationMessage.h */,
+				2F66F9285B1928DD98156DEFA9FFDD85 /* WIMGroupProtocol.h */,
+				85C6CEE2663B7EB18A13C998857A342F /* WIMImageMessage.h */,
+				55793138E796390457BEB2C147260CD0 /* WIMInformationNotificationMessage.h */,
+				8F744E506EBF77754577D5D81315DE3F /* WIMJSONConverter.h */,
+				CE8410B6A45C4639D6751E7911FACC04 /* WIMLib.h */,
+				067912AE34422C6EFBF77C864E8F43E4 /* WIMLibBuildVersion.h */,
+				11F8FDB41DF6BBB56341B24CD9FA3DF6 /* WIMLibDefine.h */,
+				EC6601466DA10A96DA981B7FAA24E32F /* WIMLocationMessage.h */,
+				D8A956373389DE59440F0412377A1C94 /* WIMMDALogHelper.h */,
+				B09BCE180C2BE6C1FE97D7BE1ED1AD05 /* WIMMediaConstants.h */,
+				CB0EADF58C20B3D761E1AA8EC7D4D394 /* WIMMediaManager.h */,
+				B23EC7C7A77FEC2D114BBB53227AE481 /* WIMMediaProtocol.h */,
+				50BA171CEC4E08D4A518B8D3AF572AED /* WIMMessage.h */,
+				82D0F8EA16320D1C92B5AA451110ACD3 /* WIMMessageContent.h */,
+				1D6BDE68F19CDE4A5812FAB3DD146EB6 /* WIMMessageParamSet.h */,
+				0C2CD4F08E777609CC085F58F14F023B /* WIMMessageProtocol.h */,
+				00121CFB03BDF0DB178CCB2DAE77CC4F /* WIMModifyMessage.h */,
+				8C4DA893F9FD9868B836641EC042122D /* WIMNetCallMessage.h */,
+				B5B9BF9078642598FC31684592A1D075 /* WIMNetWorkReachabilityHeader.h */,
+				05355D8C6EB74B7CC43F335D1F64E536 /* WIMOriginalMessage.h */,
+				43C812FCFF5677FA35691B25C82505E6 /* WIMOutGroupCommand.h */,
+				FF67D19BAC1E365A8E344FF84164B24C /* WIMPublicServiceMenu.h */,
+				E4E4B02FF1B639C198E25D76602A9187 /* WIMPublicServiceMenuGroup.h */,
+				D5DBD599DA4ABBE70198D0A164376F45 /* WIMPublicServiceMenuItem.h */,
+				674FEF2588C3AC59468A62D525C4425E /* WIMPublicServiceRichContentItem.h */,
+				0051F4ED0E28357B15A61AB645593137 /* WIMPublicServiceRichContentMessage.h */,
+				4876776932DAE04D11DA517A4E06E992 /* WIMPublicServiceRichContentsMessage.h */,
+				B62EE056604502B6103FCAA4F93D5E5C /* WIMQuoteContent.h */,
+				1A0C1452CC68DB9ADAB0B4398A4E5507 /* WIMReachability.h */,
+				102C21325BB1D066E84A4FD379B94338 /* WIMRemarkModel.h */,
+				99A9D94225B64D56BC2D76CD1655B2F7 /* WIMRichContentMessage.h */,
+				25A2A12C41AB9D755F244C6A909AFDAD /* WIMRTCCommandProtocol.h */,
+				CA5F12319E0861DB7DDEF4868DC6D49C /* WIMRunningModeCommand.h */,
+				D47662ADE254D723F0B3EDD52DE4226B /* WIMSDKOption.h */,
+				520F1519F9502A9B37965B9D729E746B /* WIMSearchGroupMember.h */,
+				4448FE5E39E8D80C3E38645C4382EB17 /* WIMSearchTalk.h */,
+				4C7DD54DCAAB824905D616FB899E9E21 /* WIMTalk.h */,
+				28CFC4C6671555595CED6097808D8CB5 /* WIMTalkChangedNotify.h */,
+				2D97BEC607871229E410FEC1B8C08DC7 /* WIMTalkParamSet.h */,
+				5E87E46703A588768F407B16CEE33C32 /* WIMTalkProtocol.h */,
+				CADB524B3E514DF827185C53EA015194 /* WIMTextMessage.h */,
+				1E89D56B87711E0C54E5808C578D4C5B /* WIMTimeCalculate.h */,
+				BCC33535AFA15E758E2E2CDFE0FD22D2 /* WIMTipMessage.h */,
+				0868086150A9B98030E0C68858F8A86A /* WIMUniversalCard1Msg.h */,
+				9113C6087CD07DAFF64B8A1123DE4800 /* WIMUniversalCard2Msg.h */,
+				469C4A27DBE959CB277F33209E56E19C /* WIMUniversalCard3Msg.h */,
+				18DD6FB7FC6741DF0545E0AD01ACC62B /* WIMUniversalCard4Msg.h */,
+				47123460ED909502642E85E0AC7FCE7A /* WIMUniversalCard5Msg.h */,
+				777A56154F13833B567C5A5A3786A4F6 /* WIMUniversalCard6Msg.h */,
+				FD4F7133359A669FC2137C5A41DD1F9E /* WIMUserCenterProtocol.h */,
+				86753DD71E39864F75AF21503BD10867 /* WIMUserInfo.h */,
+				E2118EF26744228E42AE1298D483EE52 /* WIMUserParamSet.h */,
+				A05EEF7F3DF4A9A4F5F624F32B41746D /* WIMUtility.h */,
+				D89951AF34CF354FF18D911855AF186D /* WIMVideoMessage.h */,
+				28977D91B446F384230EC41B517474AC /* Frameworks */,
+			);
+			name = WChat;
+			sourceTree = "<group>";
+		};
+		146138336AF95C47D93864589DDC9992 /* TestPrivateRepo */ = {
+			isa = PBXGroup;
+			children = (
+				A903388A26A745E5ADB9C20EF1DCA100 /* Pod */,
+				D72BEEA87253D8B2101F07E26C4FB2AD /* RongIMLib */,
+				34A1823E4E1693B2CA06A1FC889E39DE /* Support Files */,
+				FD6280977063427463DDB8A17476C052 /* WBPush */,
+				0102815E2214C6F574FD4E69F108A7BE /* WChat */,
+			);
+			name = TestPrivateRepo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		27DD9B59C640998516704D1EADBC63BE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				146138336AF95C47D93864589DDC9992 /* TestPrivateRepo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		28977D91B446F384230EC41B517474AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86B76BF4876C35ADAB5D7544B8ACEFB7 /* libcrypto.a */,
+				6065E0375D1A69D822E06DDF81D865A5 /* libssl.a */,
+				B9E32C54C61DE73C270835102B58EE6D /* libWMDA_Lite.a */,
+				0B64950FBB0C146F23838FEE2644481C /* WChatLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34A1823E4E1693B2CA06A1FC889E39DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE1EC5B54B8C5FBCD32C51FEED2F4EFD /* TestPrivateRepo.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TestPrivateRepo";
+			sourceTree = "<group>";
+		};
+		372C2B3AF7583A5F50DA36480BB8DF54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92BAA5AC58E4BB024D0A792BEFBF8D2F /* Pods_TestPrivateRepo_Example.framework */,
+				5FC7E52859A267CD3542A3D18838A4E2 /* Pods_TestPrivateRepo_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4FC65B818B52BB7A9166605D4F542E08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B21C8DFA346C0A81064134E6FE95E1A8 /* libopencore-amrnb.a */,
+				31383D7B0455AE8F29E73DE6F51BD1F0 /* RongIMLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		618854C9F23B094BCAA34DDBBBE81FCB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7A726474DF5317D8C715E3DB84A039E /* Pods-TestPrivateRepo_Example */,
+				968D71DDACF1E00FEFD01DE6725D88EE /* Pods-TestPrivateRepo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				27DD9B59C640998516704D1EADBC63BE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				372C2B3AF7583A5F50DA36480BB8DF54 /* Products */,
+				618854C9F23B094BCAA34DDBBBE81FCB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		968D71DDACF1E00FEFD01DE6725D88EE /* Pods-TestPrivateRepo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7DC236BED16A0F500A2071C77141D6 /* Pods-TestPrivateRepo_Tests.modulemap */,
+				ED65DD0811530A118825170521FB4256 /* Pods-TestPrivateRepo_Tests-acknowledgements.markdown */,
+				1912C4C2C2C6F552497DAA400E5212F9 /* Pods-TestPrivateRepo_Tests-acknowledgements.plist */,
+				E95C3B0D679502ADAE9C9072061CBFFC /* Pods-TestPrivateRepo_Tests-dummy.m */,
+				04FD95BBC783740B6F26A3C68412FFDB /* Pods-TestPrivateRepo_Tests-Info.plist */,
+				BB293ACAB1494077FB67571D0F77705A /* Pods-TestPrivateRepo_Tests-umbrella.h */,
+				B2928D044103360DF58D96D8A732036D /* Pods-TestPrivateRepo_Tests.debug.xcconfig */,
+				BA642C0F31DBC1BF79CE9CBB93B37D1C /* Pods-TestPrivateRepo_Tests.release.xcconfig */,
+			);
+			name = "Pods-TestPrivateRepo_Tests";
+			path = "Target Support Files/Pods-TestPrivateRepo_Tests";
+			sourceTree = "<group>";
+		};
+		A903388A26A745E5ADB9C20EF1DCA100 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				974ADEE3F79BE28E1B40A235F3BFDC44 /* LICENSE */,
+				664E3A4888BE1D1FEF2E8041619F5D18 /* README.md */,
+				DD062667F22BE628E9D650A1BB506C99 /* TestPrivateRepo.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C202FCA2ACE2989AB9448E94B39ACA80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A2FB0CA1085F0EFF7C9330DA07509F9 /* libWUBAPush.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D72BEEA87253D8B2101F07E26C4FB2AD /* RongIMLib */ = {
+			isa = PBXGroup;
+			children = (
+				4FC65B818B52BB7A9166605D4F542E08 /* Frameworks */,
+			);
+			name = RongIMLib;
+			sourceTree = "<group>";
+		};
+		E7A726474DF5317D8C715E3DB84A039E /* Pods-TestPrivateRepo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3569149D19021FCBDB568D6E1C016204 /* Pods-TestPrivateRepo_Example.modulemap */,
+				0744A232011326727249318ABD430538 /* Pods-TestPrivateRepo_Example-acknowledgements.markdown */,
+				3BBFBD6FE98AE7890DFD19FAD46300B5 /* Pods-TestPrivateRepo_Example-acknowledgements.plist */,
+				F637947EA64A9308377F4999A4CB573F /* Pods-TestPrivateRepo_Example-dummy.m */,
+				5419305909B910512E30B8C0CCEDEA2C /* Pods-TestPrivateRepo_Example-Info.plist */,
+				985E0A3F087C58DDFC92249D1754ABE1 /* Pods-TestPrivateRepo_Example-umbrella.h */,
+				7837822004DC009564E004B0F1947448 /* Pods-TestPrivateRepo_Example.debug.xcconfig */,
+				AAD7CEA59669E97687C5AA5F8AECF209 /* Pods-TestPrivateRepo_Example.release.xcconfig */,
+			);
+			name = "Pods-TestPrivateRepo_Example";
+			path = "Target Support Files/Pods-TestPrivateRepo_Example";
+			sourceTree = "<group>";
+		};
+		FD6280977063427463DDB8A17476C052 /* WBPush */ = {
+			isa = PBXGroup;
+			children = (
+				CD62A09E57457FF8427165B3B79FB811 /* WPushLocalNotification.h */,
+				2178366428EF1E131C7158C70E8ACFB5 /* WUBAPush.h */,
+				4A870ADBDE5ABFDE2F43BA49AB1D8BCC /* WUBAPushMessage.h */,
+				C202FCA2ACE2989AB9448E94B39ACA80 /* Frameworks */,
+			);
+			name = WBPush;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8A03D0D7E7B7A083AAA44062EB8302F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF74F26D0C7B7FC1F35453A5C67545E /* Pods-TestPrivateRepo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16DCC5C8F146602B68F404A2C2E7DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECAA5DFDBB0FD0B1D883925EA50A6FE /* Pods-TestPrivateRepo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		644ED869BA4E67502FABCAADBCBBADC8 /* Pods-TestPrivateRepo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A6345FC68EC0B77D161470D71BF95A4 /* Build configuration list for PBXNativeTarget "Pods-TestPrivateRepo_Example" */;
+			buildPhases = (
+				8A03D0D7E7B7A083AAA44062EB8302F6 /* Headers */,
+				12EEF4949ADBE87DCF800009B13103F2 /* Sources */,
+				6C5E2E8510E5E1A0005488469E730F78 /* Frameworks */,
+				9B16F8AB3FEE4DCF72B808C6A7CC5676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D62D0900C944D2EFD15716FA9F3C796 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestPrivateRepo_Example";
+			productName = "Pods-TestPrivateRepo_Example";
+			productReference = 92BAA5AC58E4BB024D0A792BEFBF8D2F /* Pods_TestPrivateRepo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7A63EC89B9CE48679AAC3C3AB87FBB4 /* Pods-TestPrivateRepo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B12367841A96A23C086D29F1A7B3043 /* Build configuration list for PBXNativeTarget "Pods-TestPrivateRepo_Tests" */;
+			buildPhases = (
+				AC16DCC5C8F146602B68F404A2C2E7DF /* Headers */,
+				FE49350EECCAC36DDE4881D5A0B01F3A /* Sources */,
+				C44BF824F05A3D33F434493F0822A0AC /* Frameworks */,
+				7F04B2BDD0BBF83B8981416D2C79C767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC952B7509CD2D750F63C6359F9B4C69 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestPrivateRepo_Tests";
+			productName = "Pods-TestPrivateRepo_Tests";
+			productReference = 5FC7E52859A267CD3542A3D18838A4E2 /* Pods_TestPrivateRepo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 372C2B3AF7583A5F50DA36480BB8DF54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				644ED869BA4E67502FABCAADBCBBADC8 /* Pods-TestPrivateRepo_Example */,
+				E7A63EC89B9CE48679AAC3C3AB87FBB4 /* Pods-TestPrivateRepo_Tests */,
+				D1978065C022C9F3D00FD7136CB8E990 /* TestPrivateRepo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F04B2BDD0BBF83B8981416D2C79C767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B16F8AB3FEE4DCF72B808C6A7CC5676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12EEF4949ADBE87DCF800009B13103F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE67F9C76D2CBE9EB9391AC0F0DAD48 /* Pods-TestPrivateRepo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE49350EECCAC36DDE4881D5A0B01F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEF41D83EDC422FF3352280CAE2C94C /* Pods-TestPrivateRepo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D62D0900C944D2EFD15716FA9F3C796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TestPrivateRepo;
+			target = D1978065C022C9F3D00FD7136CB8E990 /* TestPrivateRepo */;
+			targetProxy = D4FADC5C73A60CFB5BEBA7D9C18ACA1A /* PBXContainerItemProxy */;
+		};
+		FC952B7509CD2D750F63C6359F9B4C69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TestPrivateRepo_Example";
+			target = 644ED869BA4E67502FABCAADBCBBADC8 /* Pods-TestPrivateRepo_Example */;
+			targetProxy = 98049F2D8231369E55D47CDF0C3292D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CF6EE7DFCFCC43CB3BFC82101958CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7837822004DC009564E004B0F1947448 /* Pods-TestPrivateRepo_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestPrivateRepo_Example/Pods-TestPrivateRepo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestPrivateRepo_Example/Pods-TestPrivateRepo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30213D7E27D4FFD962AA762B3259DB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA642C0F31DBC1BF79CE9CBB93B37D1C /* Pods-TestPrivateRepo_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestPrivateRepo_Tests/Pods-TestPrivateRepo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestPrivateRepo_Tests/Pods-TestPrivateRepo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DB9F8CE68BD4A517445CB45FF099ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1EC5B54B8C5FBCD32C51FEED2F4EFD /* TestPrivateRepo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AF69FD6BE71EF748E305F7230CE4B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD7CEA59669E97687C5AA5F8AECF209 /* Pods-TestPrivateRepo_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestPrivateRepo_Example/Pods-TestPrivateRepo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestPrivateRepo_Example/Pods-TestPrivateRepo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BE850CA34935F83A5B9DEF1E1F835BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2928D044103360DF58D96D8A732036D /* Pods-TestPrivateRepo_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestPrivateRepo_Tests/Pods-TestPrivateRepo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestPrivateRepo_Tests/Pods-TestPrivateRepo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DF6B44C7130E2F43966F22749258879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1EC5B54B8C5FBCD32C51FEED2F4EFD /* TestPrivateRepo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C88D70CB16638D667C90CF30D692ED /* Build configuration list for PBXAggregateTarget "TestPrivateRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB9F8CE68BD4A517445CB45FF099ACC /* Debug */,
+				DF6B44C7130E2F43966F22749258879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B12367841A96A23C086D29F1A7B3043 /* Build configuration list for PBXNativeTarget "Pods-TestPrivateRepo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE850CA34935F83A5B9DEF1E1F835BE9 /* Debug */,
+				30213D7E27D4FFD962AA762B3259DB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A6345FC68EC0B77D161470D71BF95A4 /* Build configuration list for PBXNativeTarget "Pods-TestPrivateRepo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF6EE7DFCFCC43CB3BFC82101958CD5 /* Debug */,
+				5AF69FD6BE71EF748E305F7230CE4B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

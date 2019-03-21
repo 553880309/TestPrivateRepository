@@ -1,0 +1,22 @@
+PODS:
+  - TestPrivateRepo (0.1.0):
+    - TestPrivateRepo/RongIMLib (= 0.1.0)
+    - TestPrivateRepo/WBPush (= 0.1.0)
+    - TestPrivateRepo/WChat (= 0.1.0)
+  - TestPrivateRepo/RongIMLib (0.1.0)
+  - TestPrivateRepo/WBPush (0.1.0)
+  - TestPrivateRepo/WChat (0.1.0)
+
+DEPENDENCIES:
+  - TestPrivateRepo (from `../`)
+
+EXTERNAL SOURCES:
+  TestPrivateRepo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestPrivateRepo: c52abb500789883153d6e300960a53560cd0212c
+
+PODFILE CHECKSUM: a18048b1c343ed1e83361da9bdd7a4055be5c3af
+
+COCOAPODS: 1.6.0.beta.2

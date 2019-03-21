@@ -1,0 +1,1 @@
+../../../../../TestPrivateRepo/Classes/WChat/WChatLib/WIMUserParamSet.h

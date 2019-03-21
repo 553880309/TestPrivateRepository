@@ -1,0 +1,12 @@
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/TestPrivateRepo
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../TestPrivateRepo/Classes/RongCloud"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/TestPrivateRepo" "${PODS_ROOT}/Headers/Public"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../TestPrivateRepo/Classes/RongCloud" "${PODS_ROOT}/../../TestPrivateRepo/Classes/WBPush" "${PODS_ROOT}/../../TestPrivateRepo/Classes/WChat"
+OTHER_LDFLAGS = $(inherited) -l"WChatLib" -l"WMDA_Lite" -l"WUBAPush" -l"c++" -l"c++abi" -l"crypto" -l"opencore-amrnb" -l"resolv.9" -l"sqlite3" -l"ssl" -l"stdc++.6.0.9" -l"xml2" -l"z" -framework "AVFoundation" -framework "AssetsLibrary" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreAudio" -framework "CoreFoundation" -framework "CoreLocation" -framework "CoreTelephony" -framework "CoreText" -framework "ImageIO" -framework "MapKit" -framework "MediaPlayer" -framework "MobileCoreServices" -framework "Photos" -framework "PushKit" -framework "QuartzCore" -framework "RongIMLib" -framework "SystemConfiguration"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/../..
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
